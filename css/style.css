@@ -11,7 +11,7 @@ ul>li {
     list-style: none;
 }
 
-ul {
+.nav__list {
     margin: 0;
     padding: 0;
 }

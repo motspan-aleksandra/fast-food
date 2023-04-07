@@ -63,7 +63,7 @@ h6 {
 }
 
 .logo {
-    height: 42px;
+    height: 41px;
     width: 52px;
 }
 
@@ -146,7 +146,7 @@ h6 {
 }
 
 .food {
-    padding: 115px 0px 102px;
+    padding: 115px 102px 102px 102px;
 
 }
 
@@ -198,5 +198,409 @@ h6 {
     font-size: 16px;
     line-height: 19px;
     color: rgba(255, 255, 255, 0.7);
-    
+
 }
+
+.order__content {
+    display: flex;
+    /*
+    margin-top: 74px;
+    */
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 84px;
+
+}
+.order {
+    max-height: 543px;
+    background-color: #312F30;
+}
+
+.order__img {
+}
+.order__desc {
+    margin-left: 210px;
+}
+.action {
+}
+.order__action {
+}
+.action__title {
+    font-size: 44.2px;
+    font-weight: 500;
+    margin-bottom: 24px;
+
+
+}
+.action__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    max-width: 368px;
+
+}
+.action__price {
+    color: #F6762C;
+    margin-top: 13px;
+    margin-bottom: 11px;
+}
+.action__price-new {
+    font-size: 20px;
+}
+.action__price-old {
+    font-size: 16px;
+    color: rgba(246, 118, 44, 0.5);
+    text-decoration: line-through;
+
+}
+
+.product {
+
+}
+
+ul {
+    list-style-type: none;
+}
+
+.product__img-wrap {
+    width: 555px;
+    height: 300px;
+    overflow: hidden;
+
+}
+.product__content {
+    display: flex;
+    justify-content: center;
+}
+.product__item {
+    background-image: url(img/content/Dairy-Queen.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.product__img {
+    min-height: 300px;
+}
+
+.product__content-1strow {
+    margin-bottom: 30px;
+}
+
+.product__desc {
+}
+.product__action {
+}
+.product__title {
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 
+}
+.product__btn {
+    font-size: 12px;
+    height: 39px;
+    width: 141px;
+    padding-top: 12px;
+}
+
+.feedback {
+    display: flex;
+    padding: 134px 0px 194px;
+}
+
+.download__container {
+    display: flex;
+    align-items: center;
+    padding-left: 0px;
+}
+
+.feedback__container {
+    display: flex;
+}
+
+.feedback__column {
+    display: flex;
+}
+
+.avatars {
+    width: 346px;
+    height: 346px;
+    border: 1px dashed rgba(246, 118, 4, 0.34);
+    border-radius: 50%;
+    position: relative;
+    transform: rotate(30deg);
+}
+
+.avatars::after {
+    content: "";
+    display: block;
+    width: 230px;
+    height: 230px;
+    border: inherit;
+    border-radius: inherit;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.avatar {
+    width: 85px;
+    height: 85px;
+    display: block;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.feedback__avatar {
+    position: absolute;
+}
+
+.feedback__avatar:nth-child(1) {
+    left: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.feedback__avatar:nth-child(2) {
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+
+}
+
+.feedback__avatar:nth-child(3) {
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+
+}
+
+.feedback__avatar:nth-child(4) {
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, 50%);
+
+}
+
+.feedback__avatar:nth-child(5) {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+
+}
+
+.avatars .avatar__img {
+    transform: rotate(-30deg);
+}
+
+.avatar__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.review {
+    text-align: center;
+}
+
+.feedback__review {
+    max-width: 368px;
+}
+
+.review::before {
+    content: "";
+    display: block;
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    background: rgba(246, 115, 44, 0.1);
+    border-radius: 50%;
+    /*
+    top: 0;
+    */
+    left: 63.5%;
+    transform: translate(-50%, -83px);
+}
+
+.review::after {
+    content: "";
+    display: block;
+    width: 43px;
+    height: 43px;
+    position: absolute;
+    background: url(../img/icons/quotes.svg) center/contain no-repeat;
+    left: 63%;
+    transform: translate(-60%, -196px);
+}
+
+.feedback__review {
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.review__text {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 27px;
+}
+
+.review__author {
+    font-size: 24px;
+}
+
+.download {
+    background-color: #312F30;
+    height: 171px;
+}
+
+.download__btn {
+    margin-left: 425px;
+    display: inline-block;
+    margin-bottom: 61px;
+}
+
+.download__title {
+    margin-left: 321px;
+    font-size: 40px;
+    margin-top: 60px;
+    display: inline-block;
+}
+
+.download__container {  /* brit rock yeaaaah lets gooooo*/
+    display: flex;
+    align-items: center;
+    min-height: 171px;
+
+}
+
+/* 2:16 now wth
+why am i here */
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    /*
+    column-gap: 30px;
+    */
+    margin-left: 14vw;
+    align-items: center;
+    margin-bottom: 135px;
+}
+
+.footer {
+    background-color: #1C1C1C;
+}
+
+.footer__contact {
+    /*
+    margin-top: 128px;
+    */
+    margin-bottom: 128px;
+    margin-top: 128px;
+}
+
+.footer .logo {
+    margin-bottom: 25px;
+}
+
+.footer .email {
+    margin-bottom: 9px;
+}
+
+.logo__img {
+    width: 63px;
+}
+
+.logo__footer {
+    width: 63px;
+    margin-bottom: 25px;
+}
+
+
+.footer__email {
+    margin-bottom: 12px;
+}
+
+.email__pic {}
+
+.email__link {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.site {
+    align-items: center;
+}
+
+.site__pic {}
+
+.site__link {
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+
+.footer__menu {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    column-gap: 30px;
+    margin-left: 94px;
+    padding-left: 0;
+    /*
+    margin-top: 128px;
+    */
+}
+
+.footer-menu__block {
+    align-items: left;
+    /*
+    margin-left: 160px;
+    */
+}
+
+.footer-menu__block-title {
+    font-size: 16px;
+    margin-bottom: 19px;
+    width: 100%;
+}
+
+.footer-menu__list {
+    padding-inline-start: 0;
+}
+
+.footer-menu__item {
+    margin-bottom: 14px;
+}
+
+.footer-menu__link {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 12px;
+}
+
+.social {
+    display: flex;
+    padding-inline-start: 0;
+}
+
+.social__title {}
+
+.social__list {}
+
+.social__item {
+    margin-right: 10px;
+}
+
+.social__link {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+
+.social__icon {
+    height: 100%;
+    object-fit: contain;
+}
+

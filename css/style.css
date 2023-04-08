@@ -211,20 +211,22 @@ h6 {
     padding-bottom: 84px;
 
 }
+
 .order {
     max-height: 543px;
     background-color: #312F30;
 }
 
-.order__img {
-}
+.order__img {}
+
 .order__desc {
     margin-left: 210px;
 }
-.action {
-}
-.order__action {
-}
+
+.action {}
+
+.order__action {}
+
 .action__title {
     font-size: 44.2px;
     font-weight: 500;
@@ -232,6 +234,7 @@ h6 {
 
 
 }
+
 .action__text {
     font-size: 16px;
     font-weight: 400;
@@ -239,14 +242,17 @@ h6 {
     max-width: 368px;
 
 }
+
 .action__price {
     color: #F6762C;
     margin-top: 13px;
     margin-bottom: 11px;
 }
+
 .action__price-new {
     font-size: 20px;
 }
+
 .action__price-old {
     font-size: 16px;
     color: rgba(246, 118, 44, 0.5);
@@ -254,9 +260,7 @@ h6 {
 
 }
 
-.product {
-
-}
+.product {}
 
 ul {
     list-style-type: none;
@@ -265,6 +269,7 @@ ul {
 .product__grid {
     max-width: 1140px;
     max-height: 630px;
+    margin-top: 150px;
 }
 
 .product__img-wrap {
@@ -273,14 +278,20 @@ ul {
     overflow: hidden;
 
 }
+
 .product__content {
     display: flex;
     justify-content: center;
     column-gap: 30px;
 }
+
 .product__item {
     width: 555px;
     height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    padding-top: 60px;
     /*
     background-image: url(img/content/Dairy-Queen.jpg);
     background-repeat: no-repeat;
@@ -288,33 +299,31 @@ ul {
     */
 }
 
+
+
 .product__item-1 {
-    background-image: url("img/content/Dairy-Queen.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
+    background-image: url("../img/content/Dairy-Queen.jpg");
+    padding-right: 30px;
 }
+
 .product__item-2 {
-    background-image: url(img/content/Burger-King.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
+    background-image: url("../img/content/Burger-King.jpg");
+    padding-right: 30px;
 }
+
 .product__item-3 {
-    background-image: url(img/content/Pizza-Hut.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
+    background-image: url("../img/content/Pizza-Hut.jpg");
+    padding-left: 50px;
 }
+
 .product__item-4 {
-    content: "";
-    background-image: url(img/content/Papa-Johns.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+    background-image: url("../img/content/Papa-Johns.jpg");
+    padding-left: 50px;
+
 }
-.product__content-1 {
-}
+
+.product__content-1 {}
+
 li {
     list-style: none;
 }
@@ -329,15 +338,19 @@ li {
 
 .product__desc {
 }
+
 .product__content-1 .product__action {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;;
+    align-items: flex-end;
+    ;
 }
+
 .product__title {
     font-size: 30px;
     margin-bottom: 20px;
 }
+
 .product__btn {
     font-size: 12px;
     height: 39px;
@@ -512,7 +525,8 @@ li {
     display: inline-block;
 }
 
-.download__container {  /* brit rock yeaaaah lets gooooo*/
+.download__container {
+    /* brit rock yeaaaah lets gooooo*/
     display: flex;
     align-items: center;
     min-height: 171px;
@@ -647,4 +661,3 @@ why am i here */
     height: 100%;
     object-fit: contain;
 }
-

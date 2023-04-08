@@ -262,8 +262,13 @@ ul {
     list-style-type: none;
 }
 
+.product__grid {
+    max-width: 1140px;
+    max-height: 630px;
+}
+
 .product__img-wrap {
-    width: 555px;
+    min-width: 555px;
     height: 300px;
     overflow: hidden;
 
@@ -271,12 +276,49 @@ ul {
 .product__content {
     display: flex;
     justify-content: center;
+    column-gap: 30px;
 }
 .product__item {
+    width: 555px;
+    height: 300px;
+    /*
     background-image: url(img/content/Dairy-Queen.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    */
 }
+
+.product__item-1 {
+    background-image: url("img/content/Dairy-Queen.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.product__item-2 {
+    background-image: url(img/content/Burger-King.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.product__item-3 {
+    background-image: url(img/content/Pizza-Hut.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.product__item-4 {
+    content: "";
+    background-image: url(img/content/Papa-Johns.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.product__content-1 {
+}
+li {
+    list-style: none;
+}
+
 .product__img {
     min-height: 300px;
 }
@@ -287,12 +329,14 @@ ul {
 
 .product__desc {
 }
-.product__action {
+.product__content-1 .product__action {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;;
 }
 .product__title {
     font-size: 30px;
     margin-bottom: 20px;
-    margin-top: 
 }
 .product__btn {
     font-size: 12px;

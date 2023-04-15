@@ -568,11 +568,11 @@ why am i here */
 }
 
 .logo__img {
-    width: 63px;
+    max-width: 63px;
 }
 
 .logo__footer {
-    width: 63px;
+    max-width: 63px;
     margin-bottom: 25px;
 }
 
